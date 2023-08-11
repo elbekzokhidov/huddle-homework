@@ -42,7 +42,10 @@ h3,
 h4,
 h5,
 h6 {
-  @include font-family($heading-ff, $dark-green-color, 1.5, 600);
+  font-family: $heading-ff;
+  color: $dark-green-color;
+  line-height: 1.5rem;
+  font-weight: 600;
 }
 h1 {
   font-size: 4rem;

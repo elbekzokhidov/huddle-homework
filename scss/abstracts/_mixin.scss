@@ -3,17 +3,18 @@
   margin: 0;
   padding: 0;
 }
-@mixin font-family($ff, $c, $lh, $fw) {
+@mixin font-family($ff, $c, $lh, $fw, $fs) {
   font-family: $ff;
   color: $c;
   line-height: $lh;
   font-weight: $fw;
+  font-size: $fs;
 }
 @mixin buttons($pt, $pb, $pl, $pr, $w, $mw, $bg) {
   padding-top: $pt;
   padding-bottom: $pb;
   padding-left: $pl;
-  margin-right: $pr;
+  padding-right: $pr;
   width: $w;
   max-width: $mw;
   background-color: $bg;

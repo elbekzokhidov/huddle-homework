@@ -24,6 +24,14 @@
   width: 100%;
   max-width: 536px;
 }
+.header__hero__title {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  width: 428px;
+  margin-bottom: 3.2rem;
+}
 .header__hero__texxt {
   color: $dark-green-color;
   margin-bottom: 3.2rem;
@@ -42,4 +50,3 @@
     object-fit: contain;
   }
 }
-
